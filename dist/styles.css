@@ -3,3 +3,123 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.control_panel {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 460px;
+    height: 60px;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 4px 0 rgba(0, 0, 0, 0.1);
+    padding: 7px;
+    display: flex;
+}
+
+.btn {
+    height: 100%;
+    cursor: pointer;
+    margin-right: 14px;
+    border-radius: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.btn:hover {
+    background-color: lightgray;
+}
+
+.control_button {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: none;
+}
+
+.control_button img {
+    height: 70%;
+    width: auto;
+}
+
+.color_picker {
+    display: flex;
+    align-items: center;
+}
+
+.color_picker img {
+    height: 60%;
+}
+
+.color_picker img:nth-child(2) {
+    display: none;
+}
+
+.color_picker input[type="color"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.color_picker input[type="color"]::-webkit-color-swatch {
+    border-radius: 5px;
+}
+
+.color_picker input[type="color"]::moz-color-swatch {
+    border-radius: 5px;
+}
+
+.size_slider {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 14px;
+}
+
+.size_slider label {
+    font-size: 14px;
+}
+
+.size_slider input[type="range"] {
+    width: 100%;
+    cursor: pointer;
+}
+
+.canvas_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#canvas {
+    width: 100%;
+    height: 100%;
+    background-image: url("./assets/png/grid.png");
+}
+
+/* dynamically used css*/
+.button_selected {
+    background-color: lightgray;
+}
+
+.cursor_pen {
+    cursor: url("./assets/svg/pen.svg") 0 25, move;
+}
+
+.cursor_eraser {
+    cursor: url("./assets/svg/eraser.svg") 0 25, move;
+}
