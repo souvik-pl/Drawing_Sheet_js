@@ -1,5 +1,5 @@
-# Drawing App
-Welcome to the Drawing App – a simple yet versatile application for unleashing your creativity! This app, developed using HTML, CSS, and Vanilla JavaScript with HTML canvas, allows you to draw, erase, customize your tools, and more.
+# Drawing Sheet
+Welcome to the [Drawing Sheet](https://ubiquitous-squirrel-e17785.netlify.app/) App – a simple yet versatile application for unleashing your creativity! This app, developed using HTML, CSS, and Vanilla JavaScript with HTML canvas, allows you to draw, erase, customize your tools, and more.
 
 ## Preview
 ![Preview](./preview.png)
@@ -11,6 +11,9 @@ Welcome to the Drawing App – a simple yet versatile application for unleashing
 4. **Adjust Pen and Eraser Size:** Customize your drawing experience by adjusting the size of both the pen and eraser.
 5. **Choose Pen Color:** Add vibrancy to your drawings by selecting different colors for your pen.
 6. **Download Your Masterpiece:** Save your creations by downloading the canvas as an image.
+
+## Usage
+Visit [Drawing Sheet](https://ubiquitous-squirrel-e17785.netlify.app/) to explore and use the Drawing App. Let your imagination run wild and create beautiful drawings effortlessly.
 
 ## Local Setup
 - Pull this branch into your local system.
