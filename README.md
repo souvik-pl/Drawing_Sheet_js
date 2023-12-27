@@ -1,6 +1,9 @@
 # Drawing App
 Welcome to the Drawing App – a simple yet versatile application for unleashing your creativity! This app, developed using HTML, CSS, and Vanilla JavaScript with HTML canvas, allows you to draw, erase, customize your tools, and more.
 
+## Preview
+![Preview](./preview.png)
+
 ## Features
 1. **Draw with a Pen:** Express your artistic side by drawing freely with the pen tool.
 2. **Erase with Precision:** Correct or modify your drawings using the eraser tool.
